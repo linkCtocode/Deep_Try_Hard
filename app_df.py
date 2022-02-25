@@ -4,6 +4,8 @@ import numpy as np
 
 def app():
 
+
+
     df = pd.DataFrame({
             'first column': list(range(1, 11)),
             'second column': np.arange(10, 101, 10)
