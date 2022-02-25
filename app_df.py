@@ -3,9 +3,6 @@ import pandas as pd
 import numpy as np
 
 def app():
-    st.markdown("""# This is a header
-    ## This is a sub header
-    This is text""")
 
     df = pd.DataFrame({
             'first column': list(range(1, 11)),
