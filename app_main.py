@@ -1,17 +1,17 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import app_df
-import app_image
+import app_df_gene
+import app_df_detect
 import app_api
 
 PAGES = {
-    "DataFrame Example": app_df,
-    "Image Example": app_image,
+    "Deepfake generation": app_df_gene,
+    "Deepfake detection": app_df_detect,
     "API Example":app_api
 }
 
-st.title("Streamlit Lecture")
+st.title("Deepfake Tryhard")
 
 
 st.sidebar.title('Navigation')
